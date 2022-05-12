@@ -9,16 +9,29 @@
     <title>Web Portfolio von Fernando</title>
   </head>
   <body>
-    <a href="/">Home</a>
-    <a href="/blog/">Blog</a>
-    <a href="/projekte/">Projekte</a>
-    <a href="/kontaktdaten/">Kontakt</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li><a class="nav-link active" href="/">Home</a></li>
+            <li><a class="nav-link" href="/blog/">Blog</a></li>
+            <li><a class="nav-link" href="/Projekte/">Projekte</a></li>
+            <li><a class="nav-link" href="/kontaktdaten/">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
 
+    <div class="container">
     <h2>Web Portfolio von Fernando</h2>
     <p>Banane avec fromage</p>
     <p> hier ein Foto von mir:</p>
     <img src="Fernando.jpg" alt="Mein Bild">
     <p>das bin ich (:</p>
+    </div>
     
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
