@@ -26,6 +26,14 @@ div.border {
     flex-direction: column;
 }
 
+.flex-container > div {
+    background-color: rgb(255, 255, 255);
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
 body {
     margin: 0px;
 }
