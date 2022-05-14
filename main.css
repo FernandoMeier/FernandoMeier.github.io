@@ -25,3 +25,11 @@ div.border {
     justify-content: center;
     flex-direction: column;
 }
+
+body {
+    margin: 0px;
+}
+
+body {
+    display: block;
+}
