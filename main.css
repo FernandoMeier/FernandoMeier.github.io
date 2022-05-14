@@ -6,3 +6,15 @@ h1 {
     background-color: #57a8ee;
     color: #000000
 }
+.margin1 {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.margin1 > div {
+    margin: 20px;
+}
+
+div.border {
+    border: 1px solid black;
+}
