@@ -1,14 +1,15 @@
 h2 { 
     background-color: #d71212;
-    color: #ffffff;
+    color: #000000;
 }
 h1 {
     background-color: #57a8ee;
-    color: #000000
+    color: #000000;
+    font-family: times;
 }
 .margin1 {
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 100px;
+    margin-right: 100px;
 }
 
 .margin1 > div {
@@ -42,4 +43,9 @@ body {
 button {
     background-color:rgb(35, 111, 11);
     color:rgb(255, 255, 255);
+}
+
+p {
+    font-family: helvetica;
+    font-size: 60%;
 }
