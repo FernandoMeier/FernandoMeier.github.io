@@ -36,8 +36,10 @@ div.border {
 
 body {
     margin: 0px;
+    display: block;
 }
 
-body {
-    display: block;
+button {
+    background-color:rgb(35, 111, 11);
+    color:rgb(255, 255, 255);
 }
