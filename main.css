@@ -1,6 +1,6 @@
 h2 { 
     background-color: #d71212;
-    color: #000000;
+    color: #ffffff;
 }
 h1 {
     background-color: #57a8ee;
@@ -8,12 +8,12 @@ h1 {
     font-family: times;
 }
 .margin1 {
-    margin-left: 100px;
-    margin-right: 100px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 .margin1 > div {
-    margin: 20%;
+    margin: 20px;
 }
 
 div.border {
