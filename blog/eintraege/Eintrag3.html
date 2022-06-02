@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="/main.css">
+    <title>Erster Blogeintrag - Web Portfolio von Fernando</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+  </head>
+  <body style="background: #ffffff url(/Hintergrund_Ich.png) repeat fixed center;">
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarMenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarMenu">
+          <ul class="navbar-nav">
+            <li><a class="nav-link" href="/">Home</a></li>
+            <li><a class="nav-link" href="/blog/">Blog</a></li>
+            <li><a class="nav-link" href="/Projekte/">Projekte</a></li>
+            <li><a class="nav-link" href="/kontaktdaten/">Kontakt</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <button class="back-to-top hidden">Zurück zum Start</button>
+
+    <main>
+      <div class="margin1">
+        <div class="border">
+          <div class="flex-container-pro">
+            <div>
+              <h1 class = "title">Zweiter Eintrag</h1>
+
+              <p>02.06.2022</p>
+
+              <h2>Zwischenblog</h2>
+
+              <hr>
+
+              <p>Dies ist ein Zwischeneintrag im Blog.</p>
+
+              <p>  
+              <b>Was habe ich bis jetzt gelernt?</b>
+              <p>
+                In den letzten zwei Wochen habe ich viel an meinem Portfolio gearbeitet und es wird Zeit das Update zu veröffentlichen, 
+                daher mache ich noche einen Zwischenblog bevor ich dann definitiv alles uploade.
+              </p>
+
+              <p><b>Screenshots</b></p>
+              <img src="Screensblog2.jpg" alt="Screenshot des Hintergrundbildes in Menu" width= "90%" class="bild"> <br>
+
+              <b>Links zu inspirierenden Seiten</b>
+              <p><button onclick="window.location.href = 'https://albinotonnina.com/';">Albino Tonnina</button></p>
+              <p> Eine sehr eindrucksvolle und inspirierende Webseite, welche ich beim erkunden von Webseiten gefunden habe.
+                  Diese Webseite zeigt wie viel mit den verfügbaren Tools für Webdesign eigentlich möglich ist und, dass ich noch sehr 
+                  viel zu lernen habe. 
+              </p>
+
+              <p><button onclick="window.location.href = 'https://iuri.is/';">Iuri</button></p>
+              <p> Auch hier eine sehr inspirierende Webseite welche viel mit Animationen und Farben arbeitet. Was mir hier sehr gefallen hat ist
+                  wie mit dem Programmierartigen Titeln und Buttons gearbeitet wurde, mein Ziel ist es irgendwann auch so etwas hinzukriegen. 
+              </p>
+
+              <b>Welche Probleme sind mir beim Arbeiten begegnet?</b>
+              <ul>
+                  <li>
+                    <p>
+                        Ich hatte teils Probleme um die Knöpfe bei <a href="/Projekte/">Projekte</a> beim hovern richtig zu verändern,
+                        sodass ich dann die gewünschte farbe hinbekomme.
+                    </p>
+                 </li>
+                 <li>
+                    <p>
+                        Ich hatte Probleme um beim "Zurück zum Anfang" Knopf die funktion einzufügen, welche mir hilft genau das zu tun 
+                        wofür er gemacht ist. 
+                    </p>
+                 </li>
+                 <li>
+                    <p>
+                        Ich wollte mit Photoshop noch ein besseres Hintergrundbild machen, 
+                        jedoch besitze ich die nötigen fähigkeiten dazu noch nicht. 
+                    </p>
+                 </li>
+              </ul>
+              
+
+              <b>Wie habe ich diese Probleme gelöst?</b>
+              <ul>
+                <li>
+                  <p>
+                      Ich hatte die ganze Zeit in der falschen Funktion gearbeitet und statt dem Text habe ich immer den Knopf selber 
+                      modifiziert. Nachdem ich das gemerkt hatte, funktionierte alles gut, schlussendlich habe ich dann gemacht, dass der 
+                      Kontrast beim hovern besser wird.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                      Dank einem Artikel auf <a href="https://www.w3schools.com">w3schools</a> habe ich mit hilfe von Javascript einen Knopf
+                      machen können der sogar verschwindet, wenn man ganz oben ist. Der knopf der dort gezeigt wurde gefiel mir jedoch 
+                      nicht und ich entschied mich für einen eigenen mit Text.
+                  </p>
+               </li>
+               <li>
+                  <p>
+                      Ich habe mich am schluss mit einem simpleren Design zufrieden gegeben, welcher für jetzt genug ist. Ausserdem
+                      habe ich angefangen ein wenig mehr mit Photoshop zu experimentieren um dann in naher zukunft meinen 
+                      gewünschten Hintergrund zu machen. 
+                  </p>
+               </li>
+            </ul>
+
+              <b>Woran sollte ich das nächste Mal arbeiten?</b>
+              <p>
+                Ich will eine zusätzliche Seite mit experimentellen Projekten erstellen und in meinen 
+                <a href="/Projekte/Privatprojekte/">Privatprojekten</a> meine Abschlussarbeit der Sekundarschule hinzufügen.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+
+    <script>
+      const showOnPx = 300;
+      const backToTopButton = document.querySelector(".back-to-top")
+
+      const scrollContainer = () => {
+        return document.documentElement || document.body;
+      };
+
+      document.addEventListener("scroll", () => {
+        if (scrollContainer().scrollTop > showOnPx) {
+        backToTopButton.classList.remove("hidden")
+        } else {
+          backToTopButton.classList.add("hidden") 
+        }
+      })
+
+      const goToTop = () => {
+        document.body.scrollIntoView({
+        behavior: "smooth", 
+        })
+      };
+
+      backToTopButton.addEventListener("click", goToTop)
+    </script>
+  </body>
+</html>
